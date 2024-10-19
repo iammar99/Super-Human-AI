@@ -86,8 +86,11 @@ Here is the folder sturcture of the app
     ├───Components
     │   ├───Footer
     │   ├───Header
+    │   ├───OtherComponents
     │   └───Screen Loader
     ├───Pages
+    │   ├───Dashboard
+    │   └───Frontend
     └───SCSS
         ├───Components
         └───Frontend

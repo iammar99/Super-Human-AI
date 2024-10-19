@@ -1,0 +1,30 @@
+
+// ======================== Input container ========================  
+
+
+.input-container {
+    width: 300px;
+}
+
+.input-container {
+    position: fixed;
+    bottom: 13px;
+    left: 35%;
+}
+
+
+// ======================== Media queries ========================  
+
+
+@media screen and (max-width:661px) {
+    .input-container{
+        left: 26%;
+    }
+}
+
+
+@media screen and (max-width:415px) {
+    .input-container{
+        left: 12%;
+    }
+}

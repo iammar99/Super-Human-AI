@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
-    <div>
-        <Link to={"/agent"}>Agent</Link>
-    </div>
+    <main>
+        <Link to={"/dashboard/agent"}>Agent</Link>
+    </main>
   )
 }
