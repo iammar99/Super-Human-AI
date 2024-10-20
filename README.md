@@ -3,6 +3,7 @@
 ## Table of Content
 
 - [What is Super Human AI?](#what-is-super-human-ai)
+- [Technologies Used](#technologies-used)
 - [How Does It Work?](#how-does-it-work)
 - [Why Is It Needed?](#why-is-it-needed)
 - [How to Contribute?](#how-to-contribute)
@@ -15,6 +16,28 @@
 
 
 The Super Human AI Agent is an intelligent application designed to streamline the job application process. It takes your CV, applies to multiple jobs on LinkedIn, and provides a summary of the actions taken.
+
+
+## Technologies Used
+
+### AI Agent:
+- **Crew AI** – [Crew AI](https://www.crewai.com/)
+  Crew AI provides a simple and intuitive framework for building AI agents. It helps us streamline the process of developing Super Human AI, allowing us to focus on core functionalities like job searching and application automation without getting bogged down in technical complexities.
+
+- **LangGraph** – [LangGraph](https://www.langchain.com/langgraph)
+  LangGraph offers more control over low-level AI functionalities, which gives us flexibility when building custom workflows and enhancing the decision-making abilities of Super Human AI. This is crucial for managing more sophisticated user interactions and making the AI smarter in job-matching processes.
+
+### AI Tools:
+- **Selenium (Python)** – [Selenium](https://www.selenium.dev/)
+  Selenium is a web automation tool that we use to simulate user interactions on job platforms like LinkedIn. It enables Super Human AI to automatically navigate through job postings, fill in applications, and perform web-based tasks efficiently, replicating human behavior on websites.
+
+### Functionalities:
+- **RAG (Advanced RAG Pipeline) – Llama 3.2 3B Lightweight Text Model**
+  Retrieval-Augmented Generation (RAG) allows Super Human AI to search for jobs dynamically by retrieving relevant information from external sources. The **Llama 3.2 3B** model enables this process by providing lightweight, efficient text processing capabilities for natural language understanding and job-matching.
+
+- **Vision Intelligence – Llama 3.2 11B Multimodal Vision Instruct Model**
+  This feature enables Super Human AI to process both text and images, allowing it to understand CVs in various formats (including scanned documents). Using the **Llama 3.2 11B Multimodal Vision Instruct Model**, the AI enhances its ability to process visual inputs for a more comprehensive job search experience.
+
 
 
 ## How does it work ?
